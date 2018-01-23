@@ -1,6 +1,6 @@
 from django.conf.urls import include, url
 from django.contrib import admin
-from inventory import views
+from places import views
 # 1.Home page matching '/' as request
 #Matching the namespace <id> followed by id number
 #Starting with admin / will go to admin.site.urls module.
